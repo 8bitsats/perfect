@@ -216,7 +216,7 @@ function arenaSweep() {
 
 function checkWin() {
     if (level >= 5) {
-        window.location.href = 'https://truffle.wtf/project/thwerecursedshallrise';
+        window.location.href = 'https://truffle.wtf/project/therecursedshallrise';
     }
 }
 
