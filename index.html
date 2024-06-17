@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursed Tetris Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="text-container">
+        <h1>The Recursed Free Mint Game</h1>
+        <p><h2>Play the game to earn 5 free mints! </h2><br>
+          Use WASD and The Arrows on your keyboard to play </p>
+    </div>
+    <div id="image-container">
+        <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412521/Recursed/IMG_2848_aqwzi4.png" alt="Image 1">
+        <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412483/Recursed/IMG_2832_xepenz.png" alt="Image 2">
+        <img src="https://res.cloudinary.com/labradojo/image/upload/v1718412471/Recursed/IMG_2826_cxxw6n.png" alt="Image 3">
+    </div>
+    <div id="matrix-background"></div>
+    <canvas id="tetris-canvas"></canvas>
+    <audio id="line-clear-sound" src="line-clear.wav" preload="auto"></audio>
+    <audio id="level-up-sound" src="level-up.wav" preload="auto"></audio>
+    <script src="matrix.js"></script>
+    <script src="tetris.js"></script>
+</body>
+</html>
